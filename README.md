@@ -12,7 +12,7 @@ Setup Steps
 1. Clone this repository
 
 2. Create a virtual environment(recommended)
-    python -m venv .venv
+    **python -m venv .venv**
 
 3. Activate the virtual environment
     .venv\Scripts\activate
@@ -39,23 +39,32 @@ How to use this code?
 Make sure you are inside the folder **rps**
 
 To play the rock paper scissor game run the file 
-python src/gameplay/play_rps_game.py
+
+**python src/gameplay/play_rps_game.py**
+
+
 
 To see gesture prediction from the first model from scratch use this command
-python .\src\model1\predict.py
+
+**python .\src\model1\predict.py**
+
+
 
 Inside src, both the models training and prediction code is there.
 To see prediction of
 
 Model 1 (from scratch)
+
 **run**
-python .\src\model1\predict.py     
+**python .\src\model1\predict.py**     
 
 
 Mediapipe Model
 **run**
-python .\src\mediapipe\test_mediapipe_model.py  (for prediction using model trained on non normalized features)
-python .\src\mediapipe\test_normalized_model.py (for prediction using model trained on normalized features)
+
+**python .\src\mediapipe\test_mediapipe_model.py**  (for prediction using model trained on non normalized features)
+
+**python .\src\mediapipe\test_normalized_model.py** (for prediction using model trained on normalized features)
 
 
   
