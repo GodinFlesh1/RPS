@@ -1,0 +1,12 @@
+tensorflow>=2.13.0
+keras>=2.13.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+pillow>=10.0.0
+config
+mediapipe==0.10.9
+protobuf==3.20.3
+pandas
+joblib
