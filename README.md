@@ -39,10 +39,16 @@ How to use this code?
 Make sure you are inside the folder **rps**
 
 To play the rock paper scissor game run the file 
+
 python src/gameplay/play_rps_game.py
 
+
+
 To see gesture prediction from the first model from scratch use this command
+
 python .\src\model1\predict.py
+
+
 
 Inside src, both the models training and prediction code is there.
 To see prediction of
