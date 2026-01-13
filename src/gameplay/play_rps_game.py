@@ -114,7 +114,7 @@ def main():
 
         countdown_start = time.time()
         countdown_time = 6
-        last_detected_gesture = -1
+        last_detected_gesture = 3
 
         while True:
             ret, frame = cap.read()
@@ -152,8 +152,7 @@ def main():
         player_label = LABELS[player_move]
 
         # SKIP INVALID ROUND
-        if player_move == -1:
-            print("Skipping round — No gesture detected.")
+        if player_move == 3:
             time.sleep(1)
             continue
 
