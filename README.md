@@ -31,67 +31,8 @@ Setup Steps
 
 
 File Organization or Structure
-rps/
-│
-├── evaluation/
-│   ├── evaluate_models.py          # CNN vs MediaPipe(Gradient Boost) evaluation
-│   ├── figures/
-│   │   ├── cnn_confusion.png
-│   │   ├── mediapipe_confusion.png
-│   │   ├── accuracy_comparison.png
-│   │   └── training_curves.png
-│
-├── feature_extraction/
-│   ├── mediapipe_features.csv
-│   ├── mediapipe_features_normalized.csv
-│
-├── models/
-│   ├── gradient_boost_rps/
-│   │   ├── rps.pkl
-│   │   └── scaler.pkl
-│   ├── model1_cnn/
-│   │   ├── best_model.keras
-│   │   └── final_model.keras
-│   │
-│   ├── random_forest_rps/
-│   │   ├── rps.pkl
-│   │   └── scaler.pkl
-│   │
-│   ├── svm_rps/
-│   │   ├── rps.pkl
-│   │   └── scaler.pkl
-│
-├── src/
-│   ├── model1/                     # CNN (image-based model)
-│   │   ├── data_preprocessing.py
-│   │   ├── model.py
-│   │   ├── train.py
-│   │   └── predict.py
-│   │
-│   ├── mediapipe/                  # Landmark-based pipeline
-│   │   ├── extract_features.py
-│   │   ├── normalize_features.py
-│   │   ├── train_mediapipe.py
-│   │   ├── train_normalized.py
-│   │   ├── test_mediapipe_model.py
-│   │   └── test_normalized_model.py
-│   │
-│   ├── classifier_models/          # Classical ML (experiments)
-│   │   ├── random_forest.py
-│   │   ├── gradient_boost.py
-│   │   ├── svm.py
-│   │   ├── knn.py
-│   │   └── nn.py
-│   │
-│   ├── gameplay/
-│   │   ├── game_logic.py
-│   │   ├── ai_opponent.py
-│   │   └── play_rps_game.py
-│
-├── applicationconfig.py
-├── requirements.txt
-├── README.md
 
+![alt text](image-6.png)
 
 
 How to use this code?
