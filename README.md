@@ -14,15 +14,15 @@ Setup Steps
 2. Create a virtual environment(recommended)
     python -m venv .venv
 
-    Activate the virtual environment
+3. Activate the virtual environment
     .venv\Scripts\activate
 
     (Make sure the python interpreter for venv is between 3.9 - 3.11)
 
-3. Install libraries
+4. Install libraries
     pip install -r requirements.txt
 
-4. Run the rock-paper-scissor game
+5. Run the rock-paper-scissor game
     python src/gameplay/play_rps_game.py
 
 
